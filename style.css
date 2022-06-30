@@ -1,0 +1,172 @@
+a
+{
+    color: black !important;
+    text-transform:uppercase;
+}
+a:hover
+{
+    transform: 2s ease-in-out !important;
+    color: darkblue !important;
+}
+#navbar
+{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center;
+}
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+#banner_img
+{
+   
+     height: 70%;
+}
+#year
+{
+    position: relative;
+    top:-230px;
+    font-size: 92px;
+    color: blueviolet;
+    left: -70px;
+}
+i
+{
+    position: relative;
+    top:-187px;
+    color: blue;
+    left: -60px;
+    font-size: 50px;
+}
+
+h1
+{
+    font-weight: bolder !important;
+
+}
+#icons
+{
+    padding: 50px;
+}
+#intro h1
+{
+       letter-spacing: 20px;
+       word-spacing: 70px;
+}
+#skills
+{
+    padding: 20px 40px !important;
+}
+
+#services
+{
+    margin-top: 200px !important;
+}
+#experience
+{
+    padding: 90px 90px !important;
+    height: 50vh !important;
+
+}
+
+.project-area
+{
+    padding: 15rem 0;
+
+}
+.button-group button
+{
+   background: transparent;
+   border: none;
+   font-size: larger;
+   text-transform: uppercase;
+            margin-left: 10px;
+}
+.button-group button +button
+{
+    padding-left: 3rem;
+}
+.title h4
+{
+        font: normal 700 25px/12px ;
+
+}
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active
+{
+     outline: 0px !important;
+     box-shadow: none !important;
+     
+}
+.row div:hover
+{
+    filter: brightness(1.0) drop-shadow(1px 8px 30px #b1afaf);
+}
+ #icons:hover
+ {
+          filter: none;  
+ }
+
+.subscribe
+{
+    background-image: url("/images/subscribe-bg.png");
+    background-repeat: no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+
+.subscribe h4
+{
+    font: normal 700 30px/30px;
+    color: whitesmoke;
+}
+.subscribe p
+{
+    padding: 1rem 4rem;
+    color: whitesmoke;
+}
+.subscribe input
+{
+    width: 400px;
+    padding: 1rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: black;
+    font: normal 700 15px/20px;
+outline: none;
+
+}
+.subscribe input::placeholder
+{
+    color: whitesmoke;
+}
+ .subscribe button
+ {
+    background: whitesmoke;
+    color: black;
+    padding: .7rem 1rem;
+ }
+ #footer
+ {
+    margin-top: 80px !important;
+ }
+ #logo
+ {
+    margin-left: 200px !important;
+    margin-top: 200px !important; 
+ }
+ #footer
+ {
+    background-image: url("/images/footer-bg.png");
+    background-repeat: no-repeat;
+ }
+
